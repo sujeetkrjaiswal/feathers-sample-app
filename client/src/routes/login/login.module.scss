@@ -1,0 +1,21 @@
+.container {
+  max-width: 600px;
+  margin: 16px auto;
+}
+
+.label {
+  margin-bottom: 4px;
+  &:after {
+    content: '*';
+    color: red;
+  }
+}
+
+.input {
+  margin-bottom: 12px;
+}
+
+.errorText {
+  display: block;
+  margin-bottom: 16px;
+}
